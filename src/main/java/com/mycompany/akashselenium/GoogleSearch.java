@@ -21,7 +21,7 @@ public class GoogleSearch {
                 WebElement searchBox=driver.findElement(By.name("q"));
                 searchBox.sendKeys("Selenium WebDriver");
                 searchBox.submit();
-                System.out.println("page Title after search:"+driver.getTitle());
+                System.out.println("page Title  search:"+driver.getTitle());
                 
                 driver.quit();
             }catch(Exception e){
