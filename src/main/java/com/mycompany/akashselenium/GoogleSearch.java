@@ -19,7 +19,7 @@ public class GoogleSearch {
                 WebDriver driver=new ChromeDriver();
                 driver.get("https://www.google.com");
                 WebElement searchBox=driver.findElement(By.name("q"));
-                searchBox.sendKeys("Selenium WebDriver");
+                searchBox.sendKeys("playwright");
                 searchBox.submit();
                 System.out.println("page Title after search:"+driver.getTitle());
                 
